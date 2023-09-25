@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.headline-box{
+    width: 29%;
+    height: 32vh;
+    border-radius: 12px;
+    margin-top: 1.0em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 0.8em;
+    margin-right: 1.2em;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.headline-box:hover{
+    scale: 1.05;
+}
+.headline-heading{
+    font-family: 'Playfair Display', serif;
+}
+
+.source-name{
+    color: red;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.desc-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headline-desc{
+    font-size: 1.1rem;
+    width: 60%;
+}
+
+.headline-thumbnail{
+    width: 40%;
+    padding: 0.8em;
+    margin-top: -1.5em;
+}
+
+.headline-thumbnail>img{
+    height: 140px;
+    width: 160px;
+
+}
+
+.headlines-container{
+    display: flex;
+    flex-wrap: wrap;
+}

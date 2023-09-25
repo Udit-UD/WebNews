@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+.signup-container{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 37%;
+    height: 70vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 12px;
+}
+
+.auth-heading{
+    width: 100%;
+    font-size: 2.5rem;
+    height: 10vh;
+    font-weight: 700;
+    margin-bottom: 2vh;
+    text-align: left;
+    padding-left: 2.25em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.auth-heading>p {
+    font-size: 1rem;
+}
+
+.form-container{
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.row>input{
+    width: 35%;
+    font-size: 1.1rem;
+    margin: 0.55em;
+    margin-bottom: 0.10em;
+    padding: 0.60em 0.90em;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+}
+.row>input:focus{
+    border: 1.5px solid rgb(139, 13, 197);
+}
+.button-container{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.auth-button{
+    width: 75%;
+    height: 7vh;
+    margin: 10px;
+    margin-top: 7vh;
+    padding: 15px 45px;
+    border-radius: 10px;
+    border: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;         
+    box-shadow: 0 0 20px #eee;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.auth-button:disabled{
+    background-color: gray !important;
+}
+
+.auth-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+.button-container>p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row-login>input{
+    width: 70%;
+}

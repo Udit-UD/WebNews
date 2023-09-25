@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.sidebar-container{
+    width: 7%;
+    height: 82vh;
+    background-color: #ceedd3;
+    border-radius:  0px 12px 12px 0px;
+    font-size: 1.6rem;
+    padding: 1em 0em;
+    position: sticky;
+    top: 10vh;
+    overflow-y: auto;   
+    overflow-x: hidden;
+
+}
+
+.icon-container{
+    width: 80%;
+    margin-left: 0.50em;
+    padding-right: 0.30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}   
+.icon{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 0.5em;
+    display: flex;
+    height: 2em;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.iconn{
+    padding-left: 0.5em;
+    font-size: 1.6rem;
+}
+
+.sidebar-link{
+    color: black;
+    display: flex;
+}
+.icon:hover{
+    scale: 1.09;
+}
+.icon:active{
+    scale: 0.9;
+}
+
+.p-sidebar{
+    font-size: 1.3rem;
+}

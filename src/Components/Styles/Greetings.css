@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+.greetings-container{
+    width: 75%;
+    margin-left: 2%;
+    height: 20vh;
+    border-radius: 10px;
+    padding: 1.2em;
+    background: linear-gradient(90deg, rgba(14,161,172,1) 0%, rgba(224,44,190,1) 0%, rgba(38,199,211,1) 71%, rgba(0,129,255,1) 100%);
+}
+
+.greetings-heading{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', monospace;
+}
+
+.time{
+    text-align: right;
+    margin-top: 5%;
+    font-size: 4.5rem;
+    color: white;
+    padding-left: 10%;
+}

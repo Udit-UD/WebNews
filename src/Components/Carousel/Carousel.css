@@ -1,0 +1,40 @@
+.carousel-container{
+    width: 95%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.navigation-btn{
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    border-radius: 8px;
+    color: black;
+    border: 1px solid transparent;
+    padding: 1em 1.2em;
+    font-size: 1.2em;
+    font-family: inherit;
+    background-color: #ceedd3;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+  }
+
+  button:hover {
+    border-color: #a4a7d3;
+  }
+
+
+  .left-btn:active{
+    scale: 0.9;
+  }
+  .right-btn:active{
+    scale: 0.9;
+  }
+  
