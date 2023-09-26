@@ -9,6 +9,7 @@ import Finance from "./Pages/Finance";
 import Science from "./Pages/Science";
 import { useEffect, useState } from "react";
 import { auth } from "./firebase";
+import About from "./Pages/About";
 
 function App() {
 
@@ -36,7 +37,7 @@ function App() {
         <Route path = "/cinema" element={<Cinema/>} />
         <Route path = "/Finance" element={<Finance/>} />
         <Route path = "/Science" element={<Science/>} />
-
+        <Route path="/about" element={<About />} />
 
       </Routes>
     </>

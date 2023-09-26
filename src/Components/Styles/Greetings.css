@@ -5,7 +5,10 @@
     height: 20vh;
     border-radius: 10px;
     padding: 1.2em;
-    background: linear-gradient(90deg, rgba(14,161,172,1) 0%, rgba(224,44,190,1) 0%, rgba(38,199,211,1) 71%, rgba(0,129,255,1) 100%);
+    /* background: linear-gradient(90deg, rgba(14,161,172,1) 0%, rgba(224,44,190,1) 0%, rgba(38,199,211,1) 71%, rgba(0,129,255,1) 100%); */
+    background: rgb(14,161,172);
+background: linear-gradient(90deg, rgba(14,161,172,1) 0%, rgba(44,219,173,1) 0%, rgba(22,191,95,1) 66%, rgba(64,151,236,1) 99%);
+
 }
 
 .greetings-heading{

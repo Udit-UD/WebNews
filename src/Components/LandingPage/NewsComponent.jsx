@@ -65,10 +65,13 @@ function NewsComponent() {
           <Headlines news = {news.articles}  setData = {setData} setShowModal = {setShowModal}/>
         </div>
       ) : (
-        <div className="loading-screen">
-            <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        <div className="loading-cont">
+          <div className="loading-screen" style={{backgroundColor: "#ceedd3", borderRadius: "10px"}}>
+              <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+          </div>
+
         </div>
-      )}
+        )}
     </div>
   );
 }
